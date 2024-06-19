@@ -241,19 +241,23 @@ section{
     margin: 5px;
 }
 
-.github-link {
-    align-items: flex-start;
-    display: inline-block;
+.icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.github-link, .website-link {
     margin-top: 10px;
     text-decoration: none;
-    color: #007bff;
-    flex: 1;
-    justify-content: flex-start;
-    display: flex;
+    /* flex: 1; */
 }
 
 .github-logo{
-    width: 100%;
+    /* width: 100%; */
     font-size: 1.2rem;
     color: #000;
 }
