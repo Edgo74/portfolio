@@ -28,8 +28,8 @@ body{
 nav {
   position: sticky;
   top: 10px; 
-  background-color: rgba(255, 255, 255, 0.8); 
-  background-color: teal;
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  background-color: rgb(40, 40, 40);
   border-radius: 50px;
   z-index: 1000; 
   display: flex;
@@ -55,7 +55,7 @@ nav .container ul li a {
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
-  color: black;
+  color: white;
 }
 nav .container ul li.active {
   background-color: #3b49df;
