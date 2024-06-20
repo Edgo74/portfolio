@@ -16,3 +16,19 @@ window.onscroll = () => {
     }
   });
 };
+
+let mail = document.querySelector("#email");
+let textarea = document.querySelector("textarea");
+let button = document.querySelector("#submit");
+let form = document.querySelector("form");
+let message = document.querySelector("#message");
+
+button.addEventListener("click", function (e) {
+    if(mail.value === "" || textarea.value === ""){
+ 
+    }else{
+        e.preventDefault();
+        form.style.display = "none";
+        message.style.display = "block";
+    }
+});
