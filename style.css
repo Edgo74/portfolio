@@ -172,6 +172,7 @@ section{
 }
 
 #about p {
+    color: white;
     line-height: 2;
     margin: auto;
     margin-top: 1em;
@@ -451,3 +452,4 @@ nav .container ul  {
         display: flex;
     }
 }
+
