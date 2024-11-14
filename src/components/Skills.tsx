@@ -4,7 +4,7 @@ import { Code2, Briefcase, GraduationCap } from 'lucide-react';
 const Skills = () => {
   const skills = {
     frontend: ["React", "TypeScript", "TailwindCSS", "Bootstrap"],
-    backend: [ "PHP", "Node.js",  "PostgreSQL", "MySQL", "MongoDB", "REST API"],
+    backend: [ "PHP", "Symfony", "Node.js",  "PostgreSQL", "MySQL", "MongoDB", "REST API"],
     tools: ["Git", "Docker", "Webpack", "CI/CD"]
   };
 
