@@ -78,7 +78,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="flex">
-              <div className="flex-shrink-0 w-24 text-gray-400">2021</div>
+              <div className="flex-shrink-0 w-24 text-gray-400">2022</div>
               <div>
                 <h4 className="font-semibold">Formation Développeur Bac +2</h4>
                 <p className="text-gray-400">Studi</p>
