@@ -2,7 +2,7 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import garage  from "../../assets/garage-p.png";
 import emoji from "../../assets/emojis-site.png";
-import portfolio from "../../assets/portfolio-img.png";
+import portfolio from "../../assets/capture5.png";
 const Projects = () => {
   const projects = [
     {
@@ -23,11 +23,10 @@ const Projects = () => {
     },
     {
       title: "Mon Portfolio",
-      description: "Mon portfolio en ligne développé avec React et TailwindCSS. Design minimaliste et responsive.",
+      description: "Application fullstack développée avec API backend en Symfony  et ReactJS pout le frontend .",
       image: portfolio,
-      technologies: ["React", "Node.js", "Typescript", "TailwindCSS"],
-      githubLink: "https://github.com/Edgo74/portfolio",
-      liveLink: "https://portfolio-adam-me.netlify.app/"
+      technologies: [ "Symfony", "PHP", "API Platform", "React", "Redux",  "Node.js", "Postgresql"],
+      githubLink: "https://github.com/Edgo74/fullstack_app",
     }
   ];
   
