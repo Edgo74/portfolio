@@ -3,9 +3,9 @@ import { Code2, Briefcase, GraduationCap } from 'lucide-react';
 
 const Skills = () => {
   const skills = {
-    frontend: ["React", "TypeScript", "TailwindCSS", "Bootstrap"],
-    backend: [ "PHP", "Symfony", "Node.js",  "PostgreSQL", "MySQL", "MongoDB", "REST API"],
-    tools: ["Git", "Docker", "Webpack", "CI/CD"]
+    frontend: ["React", "TailwindCSS", "Bootstrap"],
+    backend: [ "PHP", "Symfony", "Node.js",  "PostgreSQL", "MySQL", "REST API"],
+    tools: ["Git", "Docker"]
   };
 
   return (
@@ -67,7 +67,7 @@ const Skills = () => {
               <div className="flex-shrink-0 w-24 text-gray-400">2024</div>
               <div>
                 <h4 className="font-semibold">Formation Développeur Full Stack Bachelor Bac +3 (en cours)</h4>
-                <p className="text-gray-400">ISCOD</p>
+                <p className="text-gray-400">Cloud Campus</p>
               </div>
             </div>
             <div className="flex">
