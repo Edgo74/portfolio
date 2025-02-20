@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
-            Développeur Full Stack
+            Growth Hacker
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-            En recherche d'alternance • Passionné par le développement web
+            En recherche d'alternance • Passionné par digital marketing et growth hacking 
           </p>
           
           <div className="flex justify-center space-x-6">
